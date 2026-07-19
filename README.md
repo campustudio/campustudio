@@ -43,7 +43,7 @@ Capabilities that stay useful when stacks change. Current tools are just the *ve
 ### 📈 Fintech Trading Terminal
 
 <a href="https://campustudio.github.io/fintech-trading-terminal/">
-  <img src="https://campustudio.github.io/fintech-trading-terminal/preview.svg" alt="Fintech Trading Terminal — live ticker, order book, provider-neutral architecture" width="100%" />
+  <img src="https://campustudio.github.io/fintech-trading-terminal/preview.svg?v=3" alt="Fintech Trading Terminal — live ticker, order book, provider-neutral architecture" width="100%" />
 </a>
 
 **[fintech-trading-terminal](https://github.com/campustudio/fintech-trading-terminal)** — a small fintech trading terminal for electronic markets: realtime market data, order book / depth updates, and durable client patterns (WebSocket lifecycle, batching, throttling, REST fallback).
@@ -74,19 +74,6 @@ Accounts, transactions, idempotent payment flows, auditability.
 ## 📝 Notes & Structure
 
 Architecture notes, tradeoffs, repo layout, API contracts, tests, CI, observability, and ADRs will land here as the work is published.
-
----
-
-## 📊 GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=campustudio&show_icons=true&hide_border=true&count_private=true&theme=tokyonight" alt="GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=campustudio&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=campustudio&hide_border=true&theme=tokyonight" alt="GitHub streak" />
-</p>
 
 ---
 
