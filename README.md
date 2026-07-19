@@ -1,4 +1,4 @@
-# Hi there 👋 I'm Chris Du
+# Hi there 👋 I'm Ethan Du
 
 **Senior Full-Stack / Frontend Engineer** — I build reliable, maintainable systems and adapt across industries.
 
@@ -13,8 +13,8 @@
 
 - 🚀 I ship complete products end-to-end — from UI to API to deployment
 - 🎯 Bias toward correctness, maintainability, and clear system boundaries
-- 🔭 Currently diving deep into AI application engineering (RAG, agents, tools) and real-time web systems
-- 🌱 Always leveling up on durable engineering fundamentals that survive stack churn
+- 🔭 Currently building [fintech-trading-terminal](https://github.com/campustudio/fintech-trading-terminal) — a fintech trading terminal demo (market data, order book, realtime update patterns)
+- 🌱 Also exploring AI application engineering (RAG, agents, tools) on the same durable fundamentals
 
 ---
 
@@ -40,6 +40,13 @@ Capabilities that stay useful when stacks change. Current tools are just the *ve
 
 ## ✨ Selected Work
 
+### 📈 Fintech Trading Terminal
+**[fintech-trading-terminal](https://github.com/campustudio/fintech-trading-terminal)** — a small fintech trading terminal for electronic markets: realtime market data, order book / depth updates, and durable client patterns (WebSocket lifecycle, batching, throttling, REST fallback).
+
+Focus: reconnect / backoff, render coalescing, normalized store updates, weak-network degrade paths. Applicable to crypto exchange and broader electronic trading UIs.
+
+- 📎 Repo: [campustudio/fintech-trading-terminal](https://github.com/campustudio/fintech-trading-terminal) · live demo — *coming soon*
+
 ### 🤖 AI Application Engineering
 **Enterprise Knowledge & Workflow Agent** — knowledge (RAG + citations) → text agent → tool-calling → confirmation → audit.
 
@@ -49,11 +56,6 @@ Focus: retrieval quality, agent/tool orchestration, evaluation, provider-neutral
 
 ### ⛓️ Blockchain
 Wallet integration, contract read/write, transaction-state UX, on-chain / off-chain sync.
-
-- 📎 Notes & demos — *coming soon*
-
-### 🛒 E-commerce
-Catalog / orders / payments / fulfillment / reconciliation; admin & operations tooling.
 
 - 📎 Notes & demos — *coming soon*
 
