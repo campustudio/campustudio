@@ -41,11 +41,16 @@ Capabilities that stay useful when stacks change. Current tools are just the *ve
 ## ✨ Selected Work
 
 ### 📈 Fintech Trading Terminal
+
+<a href="https://campustudio.github.io/fintech-trading-terminal/">
+  <img src="https://campustudio.github.io/fintech-trading-terminal/preview.svg" alt="Fintech Trading Terminal — live ticker, order book, provider-neutral architecture" width="100%" />
+</a>
+
 **[fintech-trading-terminal](https://github.com/campustudio/fintech-trading-terminal)** — a small fintech trading terminal for electronic markets: realtime market data, order book / depth updates, and durable client patterns (WebSocket lifecycle, batching, throttling, REST fallback).
 
-Focus: reconnect / backoff, render coalescing, normalized store updates, weak-network degrade paths. Applicable to crypto exchange and broader electronic trading UIs.
+Focus: reconnect / backoff, render coalescing, normalized store updates, weak-network degrade paths. The live page also **visualizes its own system design** (architecture, data-flow, and reconnect diagrams). Applicable to crypto exchange and broader electronic trading UIs.
 
-- 📎 Repo: [campustudio/fintech-trading-terminal](https://github.com/campustudio/fintech-trading-terminal) · live demo — *coming soon*
+- 🌐 **[Live demo](https://campustudio.github.io/fintech-trading-terminal/)** · 📎 [Repo](https://github.com/campustudio/fintech-trading-terminal)
 
 ### 🤖 AI Application Engineering
 **Enterprise Knowledge & Workflow Agent** — knowledge (RAG + citations) → text agent → tool-calling → confirmation → audit.
@@ -69,6 +74,19 @@ Accounts, transactions, idempotent payment flows, auditability.
 ## 📝 Notes & Structure
 
 Architecture notes, tradeoffs, repo layout, API contracts, tests, CI, observability, and ADRs will land here as the work is published.
+
+---
+
+## 📊 GitHub Activity
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=campustudio&show_icons=true&hide_border=true&count_private=true&theme=tokyonight" alt="GitHub stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=campustudio&layout=compact&hide_border=true&langs_count=8&theme=tokyonight" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=campustudio&hide_border=true&theme=tokyonight" alt="GitHub streak" />
+</p>
 
 ---
 
