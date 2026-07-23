@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1014"/>
+      <stop offset="1" stop-color="#0f1714"/>
+    </linearGradient>
+    <linearGradient id="title" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#9fc4b5"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="75%" cy="20%" r="55%">
+      <stop offset="0" stop-color="#2dd4a8" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#2dd4a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <text x="72" y="128" fill="#2dd4a8" font-size="20" letter-spacing="3">FINTECH / PAYMENTS</text>
+  <text x="70" y="210" fill="url(#title)" font-size="64" font-weight="700">Accounts · Flows</text>
+  <text x="70" y="280" fill="url(#title)" font-size="64" font-weight="700">Idempotency</text>
+  <text x="72" y="348" fill="#9aa7b8" font-size="22">Transactions, reconciliation, and auditability</text>
+
+  <g font-size="17" fill="#e6edf3">
+    <rect x="72" y="400" width="120" height="36" rx="18" fill="rgba(255,255,255,0.03)" stroke="#2b3441"/>
+    <text x="132" y="423" text-anchor="middle">Accounts</text>
+    <rect x="204" y="400" width="150" height="36" rx="18" fill="rgba(255,255,255,0.03)" stroke="#2b3441"/>
+    <text x="279" y="423" text-anchor="middle">Idempotency</text>
+    <rect x="366" y="400" width="100" height="36" rx="18" fill="rgba(255,255,255,0.03)" stroke="#2b3441"/>
+    <text x="416" y="423" text-anchor="middle">Audit</text>
+  </g>
+  <text x="72" y="520" fill="#6b7688" font-size="18">Notes &amp; demos  coming soon</text>
+
+  <g transform="translate(700,130)">
+    <rect width="440" height="370" rx="16" fill="#101816" stroke="#24332c"/>
+    <text x="28" y="48" fill="#6b7688" font-size="13" letter-spacing="1">PAYMENT STATE MACHINE</text>
+    <rect x="28" y="76" width="160" height="52" rx="10" fill="#0b1014" stroke="#2dd4a8"/>
+    <text x="108" y="108" fill="#2dd4a8" font-size="15" text-anchor="middle">created</text>
+    <line x1="188" y1="102" x2="220" y2="102" stroke="#4c8dff" stroke-width="2"/>
+    <rect x="220" y="76" width="160" height="52" rx="10" fill="#0b1014" stroke="#4c8dff"/>
+    <text x="300" y="108" fill="#e6edf3" font-size="15" text-anchor="middle">authorized</text>
+    <line x1="300" y1="128" x2="300" y2="168" stroke="#4c8dff" stroke-width="2"/>
+    <rect x="220" y="168" width="160" height="52" rx="10" fill="#0b1014" stroke="#ffb454"/>
+    <text x="300" y="200" fill="#ffb454" font-size="15" text-anchor="middle">settling</text>
+    <line x1="300" y1="220" x2="300" y2="260" stroke="#16c784" stroke-width="2"/>
+    <rect x="220" y="260" width="160" height="52" rx="10" fill="rgba(22,199,132,0.08)" stroke="#16c784"/>
+    <text x="300" y="292" fill="#16c784" font-size="15" text-anchor="middle">settled</text>
+    <text x="28" y="350" fill="#6b7688" font-size="13">retry-safe · reconcilable · auditable</text>
+  </g>
+</svg>

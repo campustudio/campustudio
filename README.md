@@ -1,86 +1,139 @@
-# Hi there 👋 I'm Ethan Du
+# Ethan Du
 
-**Senior Full-Stack / Frontend Engineer** — I build reliable, maintainable systems and adapt across industries.
+**Senior Full-Stack / Frontend Engineer**  
+Reliable systems · clear boundaries · multi-industry delivery
 
-`Full-Stack` · `Frontend` · `Realtime` · `System Design` · `Engineering Quality` · `AI Application` · `Blockchain`
+<p>
+  <img alt="Full-Stack" src="https://img.shields.io/badge/Full--Stack-0b0e14?style=flat-square&labelColor=232b3a" />
+  <img alt="Frontend" src="https://img.shields.io/badge/Frontend-0b0e14?style=flat-square&labelColor=232b3a" />
+  <img alt="Realtime" src="https://img.shields.io/badge/Realtime-0b0e14?style=flat-square&labelColor=232b3a" />
+  <img alt="System Design" src="https://img.shields.io/badge/System%20Design-0b0e14?style=flat-square&labelColor=232b3a" />
+  <img alt="AI Application" src="https://img.shields.io/badge/AI%20Application-0b0e14?style=flat-square&labelColor=232b3a" />
+  <img alt="Blockchain" src="https://img.shields.io/badge/Blockchain-0b0e14?style=flat-square&labelColor=232b3a" />
+</p>
 
-> ⚡ I focus on the parts that **don't** change — architecture, data contracts, reliability, delivery quality —
+> I focus on the parts that **don't** change — architecture, data contracts, reliability, delivery quality —  
 > and treat frameworks, models, and SDKs as **replaceable tooling**, not as the skill itself.
 
 ---
 
-## 👋 About
+## About
 
-- 🚀 I ship complete products end-to-end — from UI to API to deployment
-- 🎯 Bias toward correctness, maintainability, and clear system boundaries
-- 🔭 Currently building [onchain-lab](https://github.com/campustudio/onchain-lab) — a provider-neutral lab for the durable fundamentals of blockchain engineering (keys & signing, transaction lifecycle, on-chain/off-chain sync)
-- 📈 Also published [fintech-trading-terminal](https://github.com/campustudio/fintech-trading-terminal) — realtime market data, order book, and durable client patterns
-- 🌱 Also exploring AI application engineering (RAG, agents, tools) on the same durable fundamentals
+I ship complete products end-to-end — from UI to API to deployment — with a bias toward correctness, maintainability, and clear system boundaries.
 
----
+Currently published:
+- **[fintech-trading-terminal](https://github.com/campustudio/fintech-trading-terminal)** — realtime market microstructure UI
+- **[onchain-lab](https://github.com/campustudio/onchain-lab)** — durable blockchain fundamentals (frontend-first)
 
-## 🧱 Core Engineering
-
-Capabilities that stay useful when stacks change. Current tools are just the *vehicle*.
-
-**🖥️ Frontend**
-- 🧩 Component architecture & maintainable UI systems · state management · rendering & performance
-- 📡 Real-time data sync (WebSocket / streaming) · accessibility · testing
-- 🛠️ *Vehicle:* React · TypeScript · Next.js · Vitest / Playwright
-
-**⚙️ Full-stack & systems**
-- 🔗 API & data-contract design · auth / RBAC · idempotency · retrieval · streaming
-- 🛡️ Observability · failure recovery · clear boundaries (ports & adapters)
-- 🛠️ *Vehicle:* Node.js (NestJS) · Python (FastAPI) · PostgreSQL · Docker · GitHub Actions
-
-**💡 Working style**
-- ✅ Solve the real problem first; abstract only when a pattern has repeated
-- 🔄 Prefer provider-neutral designs so systems survive tool and model churn
+Also exploring AI application engineering (RAG, agents, tools) on the same fundamentals.
 
 ---
 
-## ✨ Selected Work
+## Core Engineering
 
-### 📈 Fintech Trading Terminal
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<a href="https://campustudio.github.io/fintech-trading-terminal/">
-  <img src="https://campustudio.github.io/fintech-trading-terminal/preview.svg?v=4" alt="Fintech Trading Terminal — candles, order book, depth, order ticket on a provider-neutral, reconnecting pipeline" width="100%" />
-</a>
+### Frontend
+Component architecture · state · rendering & performance  
+Realtime sync (WebSocket / streaming) · a11y · testing  
 
-**[fintech-trading-terminal](https://github.com/campustudio/fintech-trading-terminal)** — a small fintech trading terminal for electronic markets: realtime market data, order book / depth updates, and durable client patterns (WebSocket lifecycle, batching, throttling, REST fallback).
+*Vehicle:* React · TypeScript · Next.js · Vitest / Playwright
 
-Focus: reconnect / backoff, render coalescing, normalized store updates, weak-network degrade paths. The live page also **visualizes its own system design** (architecture, data-flow, and reconnect diagrams). Applicable to crypto exchange and broader electronic trading UIs.
+</td>
+<td width="50%" valign="top">
 
-- 🌐 **[Live demo](https://campustudio.github.io/fintech-trading-terminal/)** · 📎 [Repo](https://github.com/campustudio/fintech-trading-terminal)
+### Full-stack & systems
+API & data contracts · auth / RBAC · idempotency  
+Retrieval · streaming · observability · failure recovery  
 
-### 🤖 AI Application Engineering
-**Enterprise Knowledge & Workflow Agent** — knowledge (RAG + citations) → text agent → tool-calling → confirmation → audit.
+*Vehicle:* Node.js · Python · PostgreSQL · Docker · CI
 
-Focus: retrieval quality, agent/tool orchestration, evaluation, provider-neutral adapters, cost / latency / safety.
+</td>
+</tr>
+</table>
 
-- 📎 Case study / live demo / code — *coming soon*
-
-### ⛓️ Blockchain
-
-**[onchain-lab](https://github.com/campustudio/onchain-lab)** — a provider-neutral lab for the *durable* fundamentals of blockchain engineering: key/signature cryptography, the transaction lifecycle, the ABI as a data contract, and on-chain / off-chain sync. Concrete chains and libraries are treated as replaceable vehicles kept behind ports.
-
-Built frontend-first and published as it grows. The live demo currently covers client-side cryptography — key → address derivation, keccak-256, and EIP-191 / EIP-712 signing with `ecrecover` round-trips. Read, transaction-lifecycle, and indexer slices follow. **Testnet only, no secrets.**
-
-- 🌐 **[Live demo](https://campustudio.github.io/onchain-lab/)** · 📎 [Repo](https://github.com/campustudio/onchain-lab)
-
-### 💳 Fintech / Payments
-Accounts, transactions, idempotent payment flows, auditability.
-
-- 📎 Notes & demos — *coming soon*
+**Working style** — solve the real problem first; abstract only when a pattern has repeated. Prefer provider-neutral designs so systems survive tool and model churn.
 
 ---
 
-## 📝 Notes & Structure
+## Selected Work
 
-Architecture notes, tradeoffs, repo layout, API contracts, tests, CI, observability, and ADRs will land here as the work is published.
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://campustudio.github.io/fintech-trading-terminal/">
+        <img src="https://campustudio.github.io/fintech-trading-terminal/preview.svg?v=4" alt="Fintech Trading Terminal" width="100%" />
+      </a>
+      <h3>Fintech Trading Terminal</h3>
+      <p>
+        Realtime market data, order book / depth, and durable client patterns —
+        WebSocket lifecycle, batching, throttling, REST fallback.
+      </p>
+      <p>
+        <b>Focus:</b> reconnect / backoff · render coalescing · normalized store · degrade paths
+      </p>
+      <p>
+        <a href="https://campustudio.github.io/fintech-trading-terminal/"><b>Live demo</b></a>
+        ·
+        <a href="https://github.com/campustudio/fintech-trading-terminal">Repo</a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://campustudio.github.io/onchain-lab/">
+        <img src="https://campustudio.github.io/onchain-lab/preview.svg?v=1" alt="onchain-lab" width="100%" />
+      </a>
+      <h3>Blockchain · onchain-lab</h3>
+      <p>
+        Provider-neutral lab for durable blockchain fundamentals: keys &amp; signing,
+        reads via ABI / JSON-RPC, transaction lifecycle, on-chain / off-chain sync.
+      </p>
+      <p>
+        <b>Focus:</b> EIP-191/712 · ecrecover · ports &amp; adapters · testnet only / no secrets
+      </p>
+      <p>
+        <a href="https://campustudio.github.io/onchain-lab/"><b>Live demo</b></a>
+        ·
+        <a href="https://github.com/campustudio/onchain-lab">Repo</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="./assets/preview-ai.svg" alt="AI Application Engineering" width="100%" />
+      <h3>AI Application Engineering</h3>
+      <p>
+        Enterprise Knowledge &amp; Workflow Agent —
+        knowledge (RAG + citations) → tools → confirmation → audit.
+      </p>
+      <p>
+        <b>Focus:</b> retrieval quality · orchestration · evaluation · provider-neutral adapters
+      </p>
+      <p><i>Case study / live demo / code — coming soon</i></p>
+    </td>
+    <td width="50%" valign="top">
+      <img src="./assets/preview-payments.svg" alt="Fintech / Payments" width="100%" />
+      <h3>Fintech / Payments</h3>
+      <p>
+        Accounts, transactions, idempotent payment flows, reconciliation, and auditability.
+      </p>
+      <p>
+        <b>Focus:</b> state machines · retry-safe execution · reconcilable ledgers
+      </p>
+      <p><i>Notes &amp; demos — coming soon</i></p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📫 Contact
+## Notes & Structure
 
-- 💬 GitHub: [campustudio](https://github.com/campustudio)
+Architecture notes, tradeoffs, repo layout, API contracts, tests, CI, observability, and ADRs land here as the work is published.
+
+---
+
+## Contact
+
+GitHub · [campustudio](https://github.com/campustudio)
