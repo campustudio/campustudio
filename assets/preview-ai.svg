@@ -20,7 +20,7 @@
   <text x="72" y="128" fill="#a78bfa" font-size="20" letter-spacing="3">AI APPLICATION ENGINEERING</text>
   <text x="70" y="210" fill="url(#title)" font-size="58" font-weight="700">Enterprise Knowledge</text>
   <text x="70" y="278" fill="url(#title)" font-size="58" font-weight="700">&amp; Workflow Agent</text>
-  <text x="72" y="340" fill="#9aa7b8" font-size="22">RAG · tools · confirmation · audit · evaluation</text>
+  <text x="72" y="340" fill="#9aa7b8" font-size="22">RAG &#183; tools &#183; confirmation &#183; audit &#183; evaluation</text>
 
   <g font-size="17" fill="#e6edf3">
     <rect x="72" y="390" width="90" height="36" rx="18" fill="rgba(255,255,255,0.03)" stroke="#2b3441"/>
@@ -30,20 +30,19 @@
     <rect x="306" y="390" width="150" height="36" rx="18" fill="rgba(255,255,255,0.03)" stroke="#2b3441"/>
     <text x="381" y="413" text-anchor="middle">Evaluation</text>
   </g>
-  <text x="72" y="520" fill="#6b7688" font-size="18">Case study &amp; live demo  coming soon</text>
+  <text x="72" y="520" fill="#6b7688" font-size="18">Case study &amp; live demo - coming soon</text>
 
-  <!-- right flow card -->
   <g transform="translate(720,120)">
     <rect width="420" height="390" rx="16" fill="#15121f" stroke="#2a2438"/>
     <text x="28" y="48" fill="#6b7688" font-size="13" letter-spacing="1">AGENT LOOP</text>
     <rect x="28" y="72" width="364" height="48" rx="10" fill="#0c0f16" stroke="#3b3352"/>
-    <text x="48" y="102" fill="#e6edf3" font-size="16">1 · Retrieve knowledge + citations</text>
+    <text x="48" y="102" fill="#e6edf3" font-size="16">1 &#183; Retrieve knowledge + citations</text>
     <rect x="28" y="136" width="364" height="48" rx="10" fill="#0c0f16" stroke="#3b3352"/>
-    <text x="48" y="166" fill="#e6edf3" font-size="16">2 · Reason &amp; select tools</text>
+    <text x="48" y="166" fill="#e6edf3" font-size="16">2 &#183; Reason &amp; select tools</text>
     <rect x="28" y="200" width="364" height="48" rx="10" fill="#0c0f16" stroke="#3b3352"/>
-    <text x="48" y="230" fill="#e6edf3" font-size="16">3 · Confirm high-risk actions</text>
+    <text x="48" y="230" fill="#e6edf3" font-size="16">3 &#183; Confirm high-risk actions</text>
     <rect x="28" y="264" width="364" height="48" rx="10" fill="#0c0f16" stroke="#3b3352"/>
-    <text x="48" y="294" fill="#e6edf3" font-size="16">4 · Execute · audit · evaluate</text>
-    <text x="28" y="360" fill="#a78bfa" font-size="14">provider-neutral · citation-grounded</text>
+    <text x="48" y="294" fill="#e6edf3" font-size="16">4 &#183; Execute &#183; audit &#183; evaluate</text>
+    <text x="28" y="360" fill="#a78bfa" font-size="14">provider-neutral &#183; citation-grounded</text>
   </g>
 </svg>

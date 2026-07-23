@@ -82,7 +82,7 @@ Retrieval · streaming · observability · failure recovery
     </td>
     <td width="50%" valign="top">
       <a href="https://campustudio.github.io/onchain-lab/">
-        <img src="https://campustudio.github.io/onchain-lab/preview.svg?v=1" alt="onchain-lab" width="100%" />
+        <img src="https://campustudio.github.io/onchain-lab/preview.svg?v=2" alt="onchain-lab" width="100%" />
       </a>
       <h3>Blockchain · onchain-lab</h3>
       <p>
@@ -101,7 +101,7 @@ Retrieval · streaming · observability · failure recovery
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <img src="./assets/preview-ai.svg" alt="AI Application Engineering" width="100%" />
+      <img src="https://raw.githubusercontent.com/campustudio/campustudio/main/assets/preview-ai.svg?v=2" alt="AI Application Engineering" width="100%" />
       <h3>AI Application Engineering</h3>
       <p>
         Enterprise Knowledge &amp; Workflow Agent —
@@ -113,7 +113,7 @@ Retrieval · streaming · observability · failure recovery
       <p><i>Case study / live demo / code — coming soon</i></p>
     </td>
     <td width="50%" valign="top">
-      <img src="./assets/preview-payments.svg" alt="Fintech / Payments" width="100%" />
+      <img src="https://raw.githubusercontent.com/campustudio/campustudio/main/assets/preview-payments.svg?v=2" alt="Fintech / Payments" width="100%" />
       <h3>Fintech / Payments</h3>
       <p>
         Accounts, transactions, idempotent payment flows, reconciliation, and auditability.
