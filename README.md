@@ -110,7 +110,7 @@ Retrieval · streaming · observability · failure recovery
       <p>
         <b>Focus:</b> retrieval quality · orchestration · evaluation · provider-neutral adapters
       </p>
-      <p><i>Case study / live demo / code — coming soon</i></p>
+      <p><i>Notes / live demo / code — coming soon</i></p>
     </td>
     <td width="50%" valign="top">
       <img src="https://raw.githubusercontent.com/campustudio/campustudio/main/assets/preview-payments.svg?v=2" alt="Fintech / Payments" width="100%" />
